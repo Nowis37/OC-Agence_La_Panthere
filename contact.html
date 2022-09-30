@@ -7,17 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/font-awesome.css"> --> <!-- Seulement pour les icons du footer -->
+	<!-- <link rel="stylesheet" type="text/css" href="./css/et-line.css">--> <!-- Seulement pour les 3 images (WebDesign, Stratégie et illustration)-->
 	
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+	<script src="./js/jquery-2.1.0.min.js" defer></script>
+	<script src="./js/bootstrap.min.js" defer></script>
+	<script src="./js/blocs.min.js" defer></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="https://kit.fontawesome.com/1f7aaf7cdc.js" crossorigin="anonymous"></script>
+	<!--<script src="./js/gmaps.js"></script>-->
     <title>La Panthère - Contact</title>
 
     
@@ -31,8 +32,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<header>
-	<div class="bloc bgc-white l-bloc " id="bloc-0">
+	<header class="bloc bgc-white l-bloc " id="bloc-0">
 		<div class="container bloc-sm">
 			<nav class="navbar row">
 				<div class="navbar-header">
@@ -53,13 +53,12 @@
 				</div>
 			</nav>
 		</div>
-	</div>
-</header>
+	</header>
 
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
-<div class="bloc bloc-c1 bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+<section class="bloc bloc-c1 bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
@@ -73,11 +72,11 @@
 			</div>
 		</div>
 	</div>
-</div>
+</section>
 <!-- bloc-6 END -->
 
 <!-- bloc-7 -->
-<div class="bloc bgc-white l-bloc" id="bloc-7">
+<main class="bloc bgc-white l-bloc" id="bloc-7">
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
@@ -111,7 +110,7 @@
 			</div>
 		</div>
 	</div>
-</div>
+</main>
 <!-- bloc-7 END -->
 
 <!-- ScrollToTop Button -->
@@ -120,36 +119,18 @@
 
 
 <!-- Footer - bloc-8 -->
-<footer>
-	<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
-		<div class="container bloc-sm">
-			<div class="row">
-				<div class="col-sm-12">
-					<p class="text-center white">
-						Agence La Panthère<br>Agence de Web Design basée à Lyon.<br>
-					</p>
-					<div class="row row-no-gutters social">
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" target="_blank" aria-label="Rejoins nous sur Twitter" href="https://twitter.com"><i class="fa fa-twitter icon-md"></i></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" target="_blank" aria-label="Rejoins nous sur Facebook" href="https://facebook.com"><i class="fa fa-facebook icon-md"></i></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" target="_blank" aria-label="Rejoins nous sur Dribbble" href="https://dribbble.com"><i class="fa fa-dribbble icon-md"></i></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" target="_blank" aria-label="Rejoins nous sur Instagram" href="https://instagram.com"><i class="fa fa-instagram icon-md"></i></a>
-							</div>
-						</div>
-					</div>
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<p class="text-center white">
+					Agence La Panthère<br>Agence de Web Design basée à Lyon.<br>
+				</p>
+				<div class="socialmedia">
+					<a class="social" target="_blank" aria-label="Rejoins nous sur Twitter" href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+					<a class="social" target="_blank" aria-label="Rejoins nous sur Facebook" href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+					<a class="social" target="_blank" aria-label="Rejoins nous sur Dribbble" href="https://dribbble.com"><i class="fa fa-dribbble"></i></a>
+					<a class="social" target="_blank" aria-label="Rejoins nous sur Instagram" href="https://instagram.com"><i class="fa fa-instagram"></i></a>
 				</div>
 			</div>
 		</div>
