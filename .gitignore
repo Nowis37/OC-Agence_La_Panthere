@@ -1,5 +1,4 @@
 Others/
-COPY BEFORE UPDATE/
 node_modules/
 gzip-1.12/
 css/bootstrap.css
